@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Special Elite;
+  src: url("../public/SpecialElite-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Code Page";
+  src: url("../public/CodePage437.ttf")
+}
+
+html, 
+body,
+#__next {
+  margin: 0;
+  height: 100vh;
+}
+
+tr{
+  width: 75%;
+}
+td{
+  width:6.25%;
+  font-size:6.25vw;
+}
