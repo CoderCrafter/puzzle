@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 import styles from '../styles/landing.module.css'
 import Timer from './Timer.tsx'
 import Type from './Type.tsx'
-
+import Image from 'next/image'
 const Countdown = (props) => {
 
   let date = props.date
@@ -43,6 +43,8 @@ const Countdown = (props) => {
   
 
   let cicadaStyle = {
+    //"min-width":"0px",
+    //"min-height":"0px",
     "max-width":"50vw",
     "max-height":"30vh",
     "aspect-ratio":640/389,
@@ -64,7 +66,7 @@ const Countdown = (props) => {
         "transition": `background 1s`,
       }}>
         <div className={styles.countdown}>
-          <img src={"/cicada.jpg"} style={cicadaStyle}></img>
+          <img src={"https://upload.wikimedia.org/wikipedia/en/7/7e/Cicada_3301_logo.jpg"} style={cicadaStyle}></img>
           {
             revealed?
             <Type cypher={props.cypher}/>
