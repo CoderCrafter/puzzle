@@ -64,7 +64,7 @@ const Countdown = (props) => {
         "transition": `background 1s`,
       }}>
         <div className={styles.countdown}>
-          <img src="../cicada.jpg" style={cicadaStyle}></img>
+          <img src={"/cicada.jpg"} style={cicadaStyle}></img>
           {
             revealed?
             <Type cypher={props.cypher}/>

@@ -4,10 +4,9 @@ import Countdown from '../comps/Countdown.tsx'
 
 const Home = (props) => {
 
-  let date = new Date("8/17/22")
-  date.setHours(11)
+  let date = new Date(process.env.date)
 
-  let cypher = "testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest"
+  let cypher = process.env.cypher
   let test = new Date("8/12/22")
   test.setHours(10,35)
 
