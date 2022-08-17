@@ -5,7 +5,7 @@ import Countdown from '../comps/Countdown.tsx'
 console.log(process.env)
 
 const Home = (props) => {
-  let date = new Date("2022-08-17T11:30:00.000-07:00")
+  let date = new Date("2022-08-17T11:30:00.000-05:00")
 
   let cypher = "QFYBOFRP ZIXRAFRP ZXBPXO PXVP: KgX0Jgh2JgBvJQF4="
   let test = new Date("8/12/22")
